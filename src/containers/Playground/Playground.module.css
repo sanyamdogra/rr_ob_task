@@ -23,17 +23,20 @@
   margin-top: 5em;
 }
 .buttonWrapper {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  color: #924642;
+  justify-content: space-evenly;
   margin: 2em;
-  margin-top: 5em;
-}
-.opFrame {
-  width: 400px;
-  height: 400px;
-  background-color: #924642;
-  color: #fbdeac;
-  font-size: 30px;
-  font-weight: 500;
-  padding: 1em;
-  margin-top: 2em;
   border-radius: 5px;
+}
+.opArea {
+  margin-top: 2em;
+  height: 400px;
+  text-align: center;
+  color: #fbdeac !important;
+  background-color: #924642 !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
 }

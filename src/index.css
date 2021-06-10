@@ -8,6 +8,7 @@ body {
 .ant-btn-primary {
   background-color: #924642 !important;
   border-color: #924642 !important;
+  border-radius: 5px !important;
 }
 
 code {
