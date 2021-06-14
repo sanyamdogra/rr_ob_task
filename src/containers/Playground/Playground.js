@@ -3,7 +3,7 @@ import styles from "./Playground.module.css";
 import Select from "../../components/Select/Select";
 import { CHARACTER_OPTIONS, SHAPE_OPTIONS } from "../../constants";
 import { Select as SelectBase, Button, Input } from "antd";
-import { generateSquare, generateTriangle } from "../../utils";
+import { generateSquare, generateTriangle, generateCircle } from "../../utils";
 
 const { Option } = SelectBase;
 const { TextArea } = Input;
@@ -29,7 +29,7 @@ const Playground = () => {
     } else if (shape === "Triangle") {
       setOp(generateTriangle(character, num));
     } else {
-      setOp(generateSquare(character, num));
+      setOp(generateCircle(character, num));
     }
   };
   const handleClear = () => {
